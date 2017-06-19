@@ -3,10 +3,19 @@
 
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Week 5: Live Solve</title>
+    <link rel="stylesheet" href="vendors/bootstrap.min.csss">
+    <script src="vendors/angular.min.js" type="text/javascript"></script>
+    <script src="scripts/listingsController.js" type="text/javascript"></script>
+    <script src="scripts/services/ListingsService.js" type="text/javascript"></script>
   </head>
 
-  <body>
+  <body ng-app="myApp">
+    <h1>Week 5: Live Solve</h1>
+    <div ng-controller="ListingsController as lc" ng-init="lc.getListings()">
+      Stuff will go here...
+
+    </div>
 
   </body>
 
